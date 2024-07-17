@@ -8,7 +8,7 @@ namespace ConsoleDictionary
 
         static void Main(string[] args)
         {
-            LoadDictionary(); // Загрузка словаря из файла
+            LoadDictionary();
 
             while (true)
             {
@@ -29,7 +29,7 @@ namespace ConsoleDictionary
                         AddWord();
                         break;
                     case "3":
-                        SaveDictionary(); // Сохранение словаря в файл
+                        SaveDictionary();
                         Console.WriteLine("До свидания!");
                         return;
                     default:
